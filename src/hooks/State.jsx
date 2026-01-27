@@ -3,6 +3,7 @@ import { useState } from "react"
 const State = () => {
     const [count,setCount]=useState(0)
     const[like,setLike]=useState(0)
+    const[dislike,setDislike]=useState(0)
     return(
     <>
         <div>
@@ -13,9 +14,9 @@ const State = () => {
 
         <div>
             <h1>Like Dislike Section</h1>
-            <h1>Likes: {like}</h1>
+            <h1>Likes: {like} Dislike: {dislike}</h1>
             <button onClick={()=> setLike(like+1)}>Like 👍</button>
-            <button onClick={()=> setLike(like-1)}>Dislike 👎</button>
+            <button onClick={()=> setDislike(dislike+1)}>Dislike 👎</button>
         </div>
     </>
     )

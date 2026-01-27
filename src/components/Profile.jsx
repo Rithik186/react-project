@@ -1,7 +1,12 @@
-const Profile = ({name,age}) => {
+const Profile = ({name,age,skills}) => {
   return (
     <>
-        <h1>Iam {name} and iam {age} years old</h1>
+        <h1>Iam {name} {age} years old</h1>
+        <ul>
+        {skills.map((skill) => {
+            return <li key={skill}>{skill}</li>;
+        })}
+        </ul>
     </>
   )
 }

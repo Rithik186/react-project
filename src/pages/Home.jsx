@@ -5,7 +5,6 @@ import Form from "../hooks/Form"
 const Home = () => {
   return (
     <>
-    <div>Home</div>
     <Profile name="Rithik" age={19} skills={["HTML","CSS","JS","PYTHON","MONGO-DB"]}/>
       <State/>
       <Parent/>

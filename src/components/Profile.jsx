@@ -1,7 +1,7 @@
-const Profile = (props) => {
+const Profile = ({name,age}) => {
   return (
     <>
-        <h1>Iam {props.name}</h1>
+        <h1>Iam {name} and iam {age} years old</h1>
     </>
   )
 }

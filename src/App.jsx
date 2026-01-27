@@ -3,7 +3,7 @@ const App = () => {
   return (
     <>
       <div>App</div>
-      <Profile name="Rithik"/>
+      <Profile name="Rithik" age="19"/>
     
     </>
 

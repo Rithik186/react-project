@@ -1,9 +1,15 @@
 import { useState } from "react"
+import { useEffect } from "react"
 
 const State = () => {
     const [count,setCount]=useState(0)
     const[like,setLike]=useState(0)
     const[dislike,setDislike]=useState(0)
+
+    useEffect(()=>{
+        console.log("from use effect")
+    },[like])
+
     return(
     <>
         <div>

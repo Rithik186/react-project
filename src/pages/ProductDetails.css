@@ -1,0 +1,14 @@
+.pro {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.pro img {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+

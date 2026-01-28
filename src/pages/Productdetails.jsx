@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
+import "./ProductDetails.css"
 
 
 const Productdetails = () => {
@@ -23,7 +24,7 @@ const Productdetails = () => {
 
 
   return (
-    <div>
+    <div className="pro">
         <h1>Product Details</h1>
 
         <h2>Name: {product.title}</h2> 
